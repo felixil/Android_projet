@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">"My life as a lazy bacon simulator : the student dead line attack "</string>
+    <string name="title_home">Home</string>
+    <string name="title_learderboard">Learderboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_option">Option</string>
+    <string name="title_lvl1">Lvl 1</string>
+    <string name="title_lvl2">Lvl 2</string>
+    <string name="title_lvl3">Lvl 3</string>
+    <string name="title_lvl4">Lvl 4</string>
+    <string name="title_lvl5">Lvl 5</string>
+    <string name="title_profil">Profil</string>
+    <string name="title_profil_option">Profil option</string>
+    <string name="friends">Friends</string>
+    <string name="main_menu">main menu</string>
+    <string name="resultat">Résultat</string>
+    <string name="addfriend">add a friend</string>
+    <string name="backworld">back to world</string>
+    <string name="friendname">friendname</string>
+</resources>
