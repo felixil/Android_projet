@@ -88,9 +88,26 @@
 
     <Button
         android:id="@+id/btnWorlMap"
+        android:layout_width="210px"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/layoutLeaderboard"
+        android:text="@string/precedant" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="210px"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/layoutLeaderboard"
+        android:layout_below="@+id/layoutLeaderboard"
+        android:text="@string/suivant" />
+
+    <Button
+        android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
         android:layout_alignParentBottom="true"
-        android:layout_alignStart="@+id/layoutLeaderboard" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17dp"
+        android:text="@string/retry" />
 </RelativeLayout>

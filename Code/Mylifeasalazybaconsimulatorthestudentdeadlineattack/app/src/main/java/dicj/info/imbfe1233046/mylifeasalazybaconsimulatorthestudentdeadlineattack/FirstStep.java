@@ -19,7 +19,7 @@ public class FirstStep extends Activity implements OnTouchListener {
         layout.setOnTouchListener(this);
     }
     public boolean onTouch(View v, MotionEvent event) {
-        Intent intent = new Intent(this, EcranStart.class);
+        Intent intent = new Intent(this, PopUp.class);
         startActivity(intent);
         return true;}
     }

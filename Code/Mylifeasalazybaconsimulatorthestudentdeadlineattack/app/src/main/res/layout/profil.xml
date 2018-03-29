@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtPayerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="136dp"
+        android:background="@drawable/border"
+        android:padding="40px"
+        android:text="@string/player_name"
+        android:textAlignment="center"
+        android:textColor="@color/red"
+        android:textSize="5mm" />
+
+    <Button
+        android:id="@+id/btnBackWorld"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="29dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/back_world"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:id="@+id/imgAvatarUser"
+        android:layout_width="250px"
+        android:layout_height="300px"
+        android:layout_marginTop="26dp"
+        app:srcCompat="@drawable/crown"
+        android:layout_below="@+id/btnBackWorld"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/txtPlayerLvl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10mm"
+        android:text="@string/player_lvl"
+        android:layout_alignTop="@+id/btnBackWorld"
+        android:layout_toStartOf="@+id/imgAvatarUser"
+        android:layout_marginEnd="34dp"
+        android:layout_marginTop="16dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/txtPayerName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="77dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="189dp"
+            android:layout_height="match_parent"
+            android:text="@string/title_learderboard" />
+
+        <Button
+            android:id="@+id/btnProfilOption"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/title_profil_option" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutProfilId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/txtPayerName"
+        android:layout_alignEnd="@+id/txtPayerName"
+        android:layout_alignStart="@+id/txtPayerName"
+        android:layout_below="@+id/imgAvatarUser"
+        android:background="@drawable/border"
+        android:orientation="vertical"
+        android:layout_marginBottom="10px"
+        android:layout_marginTop="5px">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/player_id_txt"
+            android:textColor="@color/red" />
+
+        <TextView
+            android:id="@+id/txtPlayerId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/player_id"
+            android:textAlignment="center"
+            android:textColor="@color/red" />
+    </LinearLayout>
+
+</RelativeLayout>

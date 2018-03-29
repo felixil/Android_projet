@@ -36,12 +36,14 @@
 
         <Chronometer
             android:id="@+id/ChonoGame"
-            android:layout_width="185dp"
-            android:layout_height="85dp"
+            android:layout_width="149dp"
+            android:layout_height="73dp"
             android:layout_alignParentStart="true"
             android:layout_centerVertical="true"
             android:layout_marginLeft="0dp"
-            android:layout_marginTop="100dp"/>
+            android:layout_marginTop="100dp"
+            android:textSize="10mm"
+            android:visibility="visible" />
     </FrameLayout>
 
     <LinearLayout
