@@ -8,19 +8,20 @@
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:maxWidth="450dp"
-        android:maxHeight="100dp"
-        android:minWidth="300dp"
-        android:minHeight="100dp"
-        android:progress="100"
         android:layout_below="@+id/txtScore"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:maxHeight="100dp"
+        android:maxWidth="450dp"
+        android:minHeight="100dp"
+        android:minWidth="300dp"
+        android:progress="100"
+        android:progressDrawable="@drawable/progressbar_r" />
 
     <Button
         android:id="@+id/btnPlay"
         android:layout_width="260dp"
         android:layout_height="150dp"
-        android:background="@drawable/play_button"
+       
         android:layout_below="@+id/progressBar"
         android:layout_centerHorizontal="true" />
 
@@ -35,20 +36,20 @@
         android:layout_marginTop="11dp" />
 
     <Button
-        android:id="@+id/button2"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:id="@+id/btn_leaderboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/imbLvlNode"
         android:layout_alignParentEnd="true"
         android:layout_marginBottom="17dp"
-        android:background="@drawable/leaderboard" />
+        android:background="@drawable/btn_leaderboard" />
 
     <TextView
         android:id="@+id/txtScore"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/progressBar"
-        android:layout_below="@+id/button2"
+        android:layout_below="@+id/btn_leaderboard"
         android:text="score" />
 
     <Button
@@ -58,7 +59,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="18dp"
         android:layout_toStartOf="@+id/imbLvlNode"
-        android:text="precedant" />
+        android:background="@drawable/btn_precedant" />
 
     <Button
         android:id="@+id/btnWorlMap"
@@ -66,7 +67,7 @@
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/btnPrecedant"
         android:layout_centerHorizontal="true"
-        android:text="world map" />
+        android:background="@drawable/btn_home" />
 
     <Button
         android:id="@+id/btnSuivant"
@@ -74,5 +75,5 @@
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/btnWorlMap"
         android:layout_toEndOf="@+id/imbLvlNode"
-        android:text="Suivant" />
+        android:background="@drawable/btn_suivant" />
 </RelativeLayout>

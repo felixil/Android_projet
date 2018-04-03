@@ -92,7 +92,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignStart="@+id/layoutLeaderboard"
-        android:text="@string/precedant" />
+        android:background="@drawable/btn_precedant" />
 
     <Button
         android:id="@+id/button"
@@ -100,7 +100,7 @@
         android:layout_height="wrap_content"
         android:layout_alignEnd="@+id/layoutLeaderboard"
         android:layout_below="@+id/layoutLeaderboard"
-        android:text="@string/suivant" />
+        android:background="@drawable/btn_suivant" />
 
     <Button
         android:id="@+id/button3"
@@ -109,5 +109,5 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="17dp"
-        android:text="@string/retry" />
+        android:background="@drawable/btn_retry" />
 </RelativeLayout>

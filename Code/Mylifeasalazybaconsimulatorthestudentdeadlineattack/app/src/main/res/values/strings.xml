@@ -34,4 +34,5 @@
     <string name="lpassword">Votre mot de passe:</string>
     <string name="lusername">Votre pseudo:</string>
     <string name="btn_login">Entrez</string>
+    <string name="play">Play</string>
 </resources>

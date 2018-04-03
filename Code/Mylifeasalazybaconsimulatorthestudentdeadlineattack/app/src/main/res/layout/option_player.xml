@@ -23,7 +23,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
                 android:padding="20px"
-                android:background="@drawable/border"
+                android:background="@drawable/barre_vide"
                 android:orientation="vertical">
 
                 <TextView
@@ -66,18 +66,21 @@
         android:id="@+id/btn_change_username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/barre_vide"
         android:text="@string/btn_change_username" />
 
     <Button
         android:id="@+id/btn_change_password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/barre_vide"
         android:text="@string/btn_change_password" />
 
     <Button
         android:id="@+id/btn_change_email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/barre_vide"
         android:text="Button"
         tools:text="@string/btn_change_email" />
 
@@ -85,6 +88,7 @@
         android:id="@+id/btn_change_signature"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/barre_vide"
         android:text="@string/btn_change_signature" />
 
     <LinearLayout
@@ -96,6 +100,7 @@
             android:id="@+id/btn_back_to_profil"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/barre_vide"
             android:text="@string/btn_back_to_profil" />
     </LinearLayout>
 </LinearLayout>

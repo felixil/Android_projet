@@ -34,12 +34,13 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:gravity="center">
 
             <Button
                 android:id="@+id/btnAddFriends"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:background="@drawable/border"
                 android:text="@string/add_friend"
                 android:textColor="@color/red" />
@@ -98,10 +99,12 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1.00"
                 android:background="@drawable/border"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                >
 
 
                 <TextView
+                    android:background="@drawable/barre_vide"
                     android:id="@+id/txtFriendId"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -117,17 +120,17 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:gravity="center">
 
             <Button
 
                 android:id="@+id/btnBackWorld"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
-                android:background="@drawable/border"
-                android:text="@string/back_world"
+                android:background="@drawable/btn_home"
                 android:textColor="@color/red" />
         </RelativeLayout>
     </LinearLayout>
