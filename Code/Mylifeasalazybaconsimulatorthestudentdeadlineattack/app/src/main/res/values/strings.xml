@@ -35,4 +35,7 @@
     <string name="lusername">Votre pseudo:</string>
     <string name="btn_login">Entrez</string>
     <string name="play">Play</string>
+    <string name="as_guess">Jouer entant qu\'invité</string>
+    <string name="enregistrer">S\'enregistrer</string>
+    <string name="votre_nom">Votre nom :</string>
 </resources>

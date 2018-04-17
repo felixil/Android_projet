@@ -45,11 +45,34 @@
         android:id="@+id/btnLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="@string/btn_login"
 
+        android:layout_marginTop="24dp"
+        android:layout_weight="1"
+        android:background="@drawable/btn_empty"
+        android:text="@string/btn_login"
         android:layout_below="@+id/txtPassword"
+        android:layout_toEndOf="@+id/textView7" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnLogin"
+        android:layout_alignBottom="@+id/btnLogin"
+        android:layout_alignEnd="@+id/textView4"
+        android:background="@drawable/btn_empty"
+        android:elevation="0dp"
+        android:text="@string/enregistrer" />
+
+    <Button
+        android:id="@+id/btn_play_guess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignEnd="@+id/txtPassword"
-        android:layout_marginTop="18dp" />
+        android:layout_alignStart="@+id/txtPassword"
+        android:layout_below="@+id/btnLogin"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btn_empty"
+        android:text="@string/as_guess" />
 
 </RelativeLayout>

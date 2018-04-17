@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/txtNewNom"
+        android:layout_marginTop="16dp"
+        android:text="@string/lusername" />
+
+    <EditText
+        android:id="@+id/txtNewPseudo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:layout_below="@+id/textView9"
+        android:layout_alignStart="@+id/txtNewNom" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="92dp"
+        android:text="@string/votre_nom" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="66dp"
+        android:text="@string/lpassword"
+        android:layout_below="@+id/textView9"
+        android:layout_alignStart="@+id/textView9" />
+
+    <EditText
+        android:id="@+id/txtNewPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignStart="@+id/txtNewPseudo" />
+
+    <EditText
+        android:id="@+id/txtNewNom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:layout_below="@+id/textView2"
+        android:layout_toEndOf="@+id/textView2"
+        android:layout_marginTop="17dp" />
+
+    <Button
+        android:id="@+id/btn_Inscription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtNewPassword"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="39dp"
+        android:layout_toEndOf="@+id/textView3"
+        android:background="@drawable/btn_empty"
+        android:text="get started" />
+</RelativeLayout>
